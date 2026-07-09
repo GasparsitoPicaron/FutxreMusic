@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FutxreMusic | Streaming Hi-Res Audio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI',sans-serif;
+    background:#0a0a0a;
+    color:white;
+    line-height:1.6;
+}
+
+header{
+    height:100vh;
+    background:
+    linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.8)),
+    url("logo.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero{
+    max-width:900px;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:5rem;
+    color:#ca0b0b;
+}
+
+.hero p{
+    font-size:1.3rem;
+    margin-top:20px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:15px 35px;
+    background:#c72020;
+    color:black;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:bold;
+}
+
+section{
+    padding:80px 10%;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:40px;
+    color:#ce1e1e;
+    font-size:2.5rem;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:#161616;
+    padding:30px;
+    border-radius:20px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:15px;
+    margin-bottom:15px;
+}
+
+.valores ul,
+.servicios ul{
+    list-style:none;
+}
+
+.valores li,
+.servicios li{
+    padding:12px;
+    margin:10px 0;
+    background:#181818;
+    border-left:4px solid #c41b1b;
+}
+
+.download{
+    text-align:center;
+    background:#111;
+}
+
+.download a{
+    display:inline-block;
+    margin-top:20px;
+    background:#c50f0f;
+    color:black;
+    padding:15px 35px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#050505;
+    color:#888;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="hero">
+        <h1>FutxreMusic</h1>
+        <p>
+            La nueva experiencia de streaming de música en alta resolución.
+            Disfruta de audio Hi-Res, calidad profesional y una amplia variedad
+            musical para los oyentes más exigentes.
+        </p>
+
+        <a href="#servicios" class="btn">Descubrir Más</a>
+    </div>
+</header>
+
+<section>
+    <h2>Nuestra Misión</h2>
+
+    <div class="grid">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d" alt="Misión">
+            <p>
+                Nuestra misión como empresa es ofrecer un servicio de música
+                de alta calidad para nuestros clientes, permitiéndoles disfrutar
+                de una experiencia sonora que cumpla con los estándares más exigentes.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Nuestra Visión</h2>
+
+    <div class="grid">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3" alt="Visión">
+            <p>
+                Lograr satisfacer las necesidades de nuestros clientes mediante
+                la mejora continua del servicio. Realizamos encuestas periódicas
+                para garantizar una experiencia completa y una satisfacción total.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="valores">
+    <h2>Nuestros Valores</h2>
+
+    <ul>
+        <li>✔ Satisfacción al cliente.</li>
+        <li>✔ Compromiso con el cliente.</li>
+        <li>✔ Lograr la mejor calidad posible.</li>
+        <li>✔ Trato acorde y respetuoso con cada cliente.</li>
+    </ul>
+</section>
+
+<section id="servicios" class="servicios">
+    <h2>Servicios</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e" alt="Hi Res Audio">
+            <h3>Audio de Alta Calidad</h3>
+            <p>
+                Streaming de música en alta resolución para disfrutar
+                cada detalle de tus canciones favoritas.
+            </p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3" alt="Catálogo Musical">
+            <h3>Amplio Catálogo Musical</h3>
+            <p>
+                Miles de artistas, álbumes y géneros musicales
+                disponibles para todos los gustos.
+            </p>
+        </div>
+
+        <div class="card">
+            <img src="https://axastudio.com/wp-content/uploads/2023/05/musica-foto.jpg" alt="Videos Musicales">
+            <h3>Videos Musicales</h3>
+            <p>
+                Disfruta de videoclips oficiales y contenido audiovisual
+                desde la misma plataforma.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<a href="https://wa.me/56921983217?text=Hola,%20quiero%20información%20sobre%20FutxreMusic"
+   target="_blank"
+   style="
+      position:fixed;
+      bottom:20px;
+      right:20px;
+      width:50px;
+      height:50px;
+      background:#25D366;
+      border-radius:50%;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      box-shadow:0 3px 8px rgba(0,0,0,.3);
+      z-index:9999;
+      text-decoration:none;
+   ">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+         alt="WhatsApp"
+         width="28"
+         height="28">
+</a>
+<a href="https://www.instagram.com/aiff._gaspaar"
+   target="_blank"
+   style="
+      position:fixed;
+      bottom:80px;
+      right:20px;
+      width:50px;
+      height:50px;
+      background:#E4405F;
+      border-radius:50%;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      box-shadow:0 3px 8px rgba(0,0,0,.3);
+      z-index:9999;
+      text-decoration:none;
+   ">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+         alt="Instagram"
+         width="28"
+         height="28">
+</a>
+<section class="download">
+    <h2>Descarga FutxreMusic</h2>
+
+    <p>
+        Disponible para Windows, macOS y Linux.
+    </p>
+
+    <a href="FutxreMusicSetup.exe" download>
+        Descargar Ejecutable
+    </a>
+</section>
+
+<footer>
+    © 2026 FutxreMusic - Diseñado por Gaspar Carreño Herbias - Streaming de Música en Alta Resolución
+</footer>
